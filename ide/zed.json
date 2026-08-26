@@ -1,0 +1,90 @@
+{
+    "collaboration_panel": {
+        "dock": "left",
+    },
+    "agent": {
+        "dock": "right",
+        "favorite_models": [],
+        "model_parameters": [],
+    },
+    "git_panel": {
+        "dock": "left",
+    },
+    "icon_theme": "Catppuccin Mocha",
+    "project_panel": {
+        "dock": "left",
+    },
+    "outline_panel": {
+        "dock": "left",
+    },
+    "autosave": "off",
+    "buffer_font_family": "JetBrains Mono",
+    "buffer_font_features": {
+        "calt": false,
+    },
+    "ui_font_size": 14,
+    "buffer_font_size": 13.8,
+    "buffer_line_height": "standard",
+    "base_keymap": "VSCode",
+    "theme": {
+        "mode": "dark",
+        "light": "One Light",
+        "dark": "Zed Legacy: Andromeda", // 2 green + orange
+    },
+    "tabs": {
+        "git_status": true,
+        "file_icons": true,
+    },
+    "git": {
+        "inline_blame": {
+            "enabled": false,
+        },
+    },
+    "confirm_quit": true,
+    "tab_size": 4,
+    "terminal": {
+        "font_size": 13,
+        "blinking": "on",
+        "copy_on_select": true,
+        "toolbar": {
+            "breadcrumbs": false,
+        },
+    },
+    "languages": {
+        "Rust": {
+            "show_edit_predictions": false
+        },
+        "JSON": {
+            "tab_size": 2,
+        },
+        "GraphQL": {
+            "tab_size": 2,
+        },
+        "YAML": {
+            "tab_size": 2,
+        },
+        "SQL": {
+            "formatter": "prettier",
+            "tab_size": 2,
+        },
+    },
+    "extend_comment_on_newline": false,
+    "experimental.theme_overrides": {
+        "syntax": {
+            "comment": {
+                "color": "#6fdd00",
+                "font_style": "normal",
+            },
+            "function": {
+                "font_style": "normal",
+            },
+            // "string": {
+            //     "color": "#F1C232"
+            // }
+        },
+    },
+    "telemetry": {
+        "diagnostics": true,
+        "metrics": true,
+    },
+}
