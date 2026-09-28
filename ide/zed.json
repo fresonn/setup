@@ -1,4 +1,17 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
 {
+    "diff_view_style": "unified",
+    "edit_predictions": {
+        "provider": "zed",
+    },
+    "cli_default_open_behavior": "new_window",
     "collaboration_panel": {
         "dock": "left",
     },
@@ -52,7 +65,7 @@
     },
     "languages": {
         "Rust": {
-            "show_edit_predictions": false
+            "show_edit_predictions": false,
         },
         "JSON": {
             "tab_size": 2,
@@ -67,6 +80,33 @@
             "formatter": "prettier",
             "tab_size": 2,
         },
+        "C": {
+            "format_on_save": "on",
+        },
+        "TypeScript": {
+            "tab_size": 2,
+            "format_on_save": "on",
+        },
+        "TSX": {
+            "tab_size": 2,
+            "format_on_save": "on",
+        },
+        "JavaScript": {
+            "tab_size": 2,
+            "format_on_save": "on",
+        },
+        "CSS": {
+            "formatter": "prettier",
+            "format_on_save": "on",
+            "tab_size": 2,
+        },
+    },
+    "lsp": {
+        "tailwindcss-language-server": {
+            "settings": {
+                "classFunctions": ["cva", "cn", "clsx"],
+            },
+        },
     },
     "extend_comment_on_newline": false,
     "experimental.theme_overrides": {
@@ -78,9 +118,6 @@
             "function": {
                 "font_style": "normal",
             },
-            // "string": {
-            //     "color": "#F1C232"
-            // }
         },
     },
     "telemetry": {
